@@ -59,12 +59,14 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
         myIphone.tocar();
         myIphone.pausar();
         myIphone.selecionarMusica("BELLAKEO - Peso Pluma, Anitta");
+        System.out.println("");
 
         // Teste do aparelho telefonico
         myIphone.ligar("11 98801-2219");
         myIphone.atender();
         myIphone.iniciarCorreioVoz();
-        
+        System.out.println("");
+
         // Teste do navegador de internet
         myIphone.exibirPagina("https://github.com/carlos-ems");
         myIphone.adicionarNovaAba();
